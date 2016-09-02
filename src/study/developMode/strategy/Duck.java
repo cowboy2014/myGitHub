@@ -1,7 +1,7 @@
 /**
  * Created by hadoop on 2016/9/2.
  */
-package study.developMode;
+package study.developMode.strategy;
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
