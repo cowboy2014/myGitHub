@@ -1,18 +1,13 @@
 package com.demos.newsInfo;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
+import net.sf.json.JSONObject;
+
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
-
-import net.sf.json.JSONObject;
 
 public class NewsView {
 	public static final String DEF_CHATSET = "UTF-8";
@@ -91,9 +86,9 @@ public class NewsView {
   
   
   
-    public static void main(String[] args) {
-  
-    }
+//    public static void main(String[] args) {
+//
+//    }
   
     /**
      *
