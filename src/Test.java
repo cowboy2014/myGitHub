@@ -4,7 +4,7 @@ import chapter01.LinkFilter;
 /**
  * Created by Administrator on 2016/8/28.
  */
-public class Testclass {
+public class Test {
     public static void main(String[] args) {
         HtmlparserTool htmlparserTool = new HtmlparserTool();
         LinkFilter linkFilter = new LinkFilter() {
