@@ -1,4 +1,4 @@
-package com.dwlijx.bugger;
+package chapter01;
 
 import java.util.LinkedList;
 

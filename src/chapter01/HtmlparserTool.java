@@ -24,7 +24,11 @@ public class HtmlparserTool {
         Set<String> links = new HashSet<String>();
         try {
             Parser parser = new Parser(url);
-            parser.setEncoding("gb2312");
+            if ("ISO-8859-1".equals(parser.getEncoding())) {
+                parser.setEncoding("GB2312");
+            }else{
+                parser.setEncoding("UTF-8");
+            }
 
             //过滤<frame>标签的filter,用来提取frame标签里的src属性
             NodeFilter frameFilter = new NodeFilter() {

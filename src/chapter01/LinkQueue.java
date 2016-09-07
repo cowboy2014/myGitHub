@@ -1,4 +1,6 @@
-package com.dwlijx.bugger;
+package chapter01;
+
+import chapter01.Queue;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -42,7 +44,7 @@ public class LinkQueue {
         return visitedUrl.size();
     }
     //判断未访问的url队列是否为空
-    private static boolean unVisitedUrlsEmpty(){
+    public static boolean unVisitedUrlsEmpty(){
         return unvisitedUrl.isQueueEmpty();
     }
 }
